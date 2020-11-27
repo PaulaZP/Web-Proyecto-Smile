@@ -1,0 +1,32 @@
+/*#wrapper-principal{
+    margin: 0 auto;
+    background-color: aqua;
+}
+.wrapper-1{
+    border: 1px solid #000000;
+    width: 1400px;
+    height: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapper-2{
+    width: 1200px;
+    margin: 0 auto;
+}
+*/
+.wrapper-principal{
+    background-color: blueviolet;
+    max-width: 100%;
+    height: 1000px;
+}
+#wrapper-secundario{
+    width: 1400px;
+    margin: 0 auto;
+    border: 1px solid #ff0000;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}

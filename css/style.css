@@ -1,12 +1,91 @@
-#wrapper-principal {
-  margin: 0 auto;
-  background-color: aqua; }
+/*#wrapper-principal{
+    margin: 0 auto;
+    background-color: aqua;
+}
+.wrapper-1{
+    border: 1px solid #000000;
+    width: 1400px;
+    height: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapper-2{
+    width: 1200px;
+    margin: 0 auto;
+}
+*/
+.wrapper-principal {
+  background-color: blueviolet;
+  max-width: 100%;
+  height: 1000px; }
 
-.wrapper-1 {
-  border: 1px solid #000000;
+#wrapper-secundario {
   width: 1400px;
-  height: 500px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border: 1px solid #ff0000; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.header {
+  position: relative;
+  height: 1000px;
+  border: 1px solid blue; }
+
+.fondo-1 {
+  background-image: url("../img/1.jpg");
+  background-size: cover; }
+
+.logo {
+  float: left;
+  padding: 27px 19px;
+  background-color: #000000;
+  margin-left: 100px;
+  margin-top: 50px; }
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  letter-spacing: 10px; }
+
+.menu {
+  float: right;
+  color: white;
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+  margin-right: 100px;
+  margin-top: 57px; }
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px; }
+
+/*-----------Texto-----------*/
+.titulo-smile {
+  position: absolute;
+  bottom: 300px;
+  right: 200px; }
+
+.titulo-smile p {
+  color: white;
+  font-size: 220px;
+  letter-spacing: 15px;
+  margin: 0;
+  font-family: 'Raleway', sans-serif; }
+
+.text-smile {
+  position: absolute;
+  bottom: 260px;
+  right: 300px; }
+
+.text-smile p {
+  color: white;
+  font-size: 64px;
+  margin: 0; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
