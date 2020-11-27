@@ -89,7 +89,8 @@ h2 {
 .content-1 p {
   margin: 0 auto;
   text-align: center;
-  width: 950px; }
+  width: 950px;
+  font-size: 20px; }
 
 .contet-1-hr {
   width: 80px;
@@ -98,6 +99,85 @@ h2 {
   margin-bottom: 63px; }
 
 /*-----------Contenido 2-----------*/
+.content-2 {
+  border: 1px solid greenyellow;
+  padding-bottom: 95px;
+  margin: 0 auto; }
+
+.content-2-texto {
+  border: 1px solid black;
+  background-color: #ffeae2;
+  float: left;
+  width: 947px;
+  height: 650px; }
+
+.cont-2-p-1 {
+  font-size: 36px;
+  font-weight: bold;
+  width: 557px;
+  margin-left: 250px;
+  margin-top: 136px; }
+
+.cont-2-p-2 {
+  font-weight: 100;
+  margin: 0px;
+  font-size: 36px;
+  margin-left: 250px;
+  padding-top: 64px; }
+
+.content-2-img {
+  background-image: url("../img/2.jpg");
+  background-size: cover;
+  border: 1px solid black;
+  float: left;
+  width: 947px;
+  height: 650px; }
+
+/*-----------Contenido 3-----------*/
+.content-colum-1 {
+  width: 700px;
+  float: left; }
+
+.content-colum-2 {
+  width: 700px;
+  float: left; }
+
+.content-c-2 {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  padding-top: 50px;
+  padding-bottom: 56px; }
+
+.content-c-3 {
+  border-bottom: 1px solid #000000;
+  padding-top: 50px;
+  padding-bottom: 56px; }
+
+.content-c-4 {
+  margin-top: 168px;
+  margin-bottom: 4px;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  padding-top: 50px;
+  padding-bottom: 57px; }
+
+.content-c-5 {
+  border-bottom: 1px solid #000000;
+  padding-top: 50px;
+  padding-bottom: 51px; }
+
+.boton-1 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 143px; }
+
+.boton-1 a {
+  border: 1px solid #000000;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 23px 38px; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
