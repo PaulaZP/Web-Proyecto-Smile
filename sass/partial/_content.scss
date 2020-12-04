@@ -1,6 +1,5 @@
 /*-----------Contenido 1-----------*/
 .content-1{
-    border: 1px solid darkturquoise;
     padding-bottom: 95px;
 }
 .titulo-cont-1-span{
@@ -25,12 +24,10 @@
 
 /*-----------Contenido 2-----------*/
 .content-2{
-    border: 1px solid greenyellow;
     padding-bottom: 95px;
     margin: 0 auto;
 }
 .content-2-texto{
-    border: 1px solid black;
     background-color: #ffeae2;
     float: left;
     width: 947px;
@@ -53,7 +50,6 @@
 .content-2-img{
     background-image: url("../img/2.jpg");
     background-size: cover;
-    border: 1px solid black;
     float: left;
     width: 947px;
     height: 650px;
@@ -85,10 +81,12 @@
     margin-bottom: 4px;
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
     padding-top: 50px;
     padding-bottom: 57px;
 }
 .content-c-5{
+    border-left: 1px solid #000000;
     border-bottom: 1px solid #000000;
     padding-top: 50px;
     padding-bottom: 69px;
@@ -121,7 +119,6 @@
 .fondo-2{
     background-image: url("../img/3.jpg");
     background-size: cover;
-    border: 1px solid blue;
 }
 .cont-5-p-1{
     padding-top: 205px;
@@ -137,4 +134,62 @@
     font-size: 20px;
     color: white;
     text-align: center;
+    margin-bottom: 0;
 }
+
+/*-----------Contenido 5-----------*/
+.fondo-3{
+    background-color: #f3f4f5;
+    height: 1000px;
+}
+
+/*-----------Contenido 6-----------*/
+.content-6{
+    border: 1px solid red;
+}
+.cont-6-h2 h2{
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.cont-6-colum1{
+    border: 1px solid blue;
+    width: 650px;
+    float: left;
+}
+.cont-6-colum2{
+    border: 1px solid green;
+    width: 740px;
+    float: right;
+    padding-top: 266px;
+}
+.cont-6-img1{
+    background-image: url("../img/4.jpg");
+    background-size: cover;
+    width: 560px;
+    height: 700px;
+
+}
+.cont-6-img2{
+    background-image: url("../img/5.jpg");
+    background-size: cover;
+    width: 740px;
+    height: 366px;
+}
+.cont-6-img3{
+    background-image: url("../img/6.jpg");
+    background-size: cover;
+    width: 329px;
+    height: 338px;
+    float: left;
+    margin-right: 82px;
+}
+.cont-6-img4{
+    background-image: url("../img/7.jpg");
+    background-size: cover;
+    width: 329px;
+    height: 338px;
+    float: left;
+}
+
+/*-----------Contenido 7-----------*/
