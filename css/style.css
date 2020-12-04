@@ -258,6 +258,19 @@ h2 {
 .content-7 {
   border: 1px solid yellowgreen; }
 
+/*-----------Footer-----------*/
+.fondo-4 {
+  background-color: #f3f4f5; }
+
+.footer {
+  border: 1px solid red; }
+
+.copy {
+  float: left; }
+
+.redes {
+  float: right; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
