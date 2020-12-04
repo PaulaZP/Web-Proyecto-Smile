@@ -169,12 +169,12 @@ h2 {
   width: 548px;
   margin-left: 50px; }
 
-.boton-1 {
+.boton {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 143px; }
 
-.boton-1 a {
+.boton a {
   border: 1px solid #000000;
   font-size: 20px;
   text-decoration: none;
@@ -205,7 +205,7 @@ h2 {
 /*-----------Contenido 5-----------*/
 .fondo-3 {
   background-color: #f3f4f5;
-  height: 1000px; }
+  height: 1200px; }
 
 /*-----------Contenido 6-----------*/
 .content-6 {
@@ -255,6 +255,9 @@ h2 {
   float: left; }
 
 /*-----------Contenido 7-----------*/
+.content-7 {
+  border: 1px solid yellowgreen; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
