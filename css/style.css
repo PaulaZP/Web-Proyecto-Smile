@@ -258,18 +258,62 @@ h2 {
 .content-7 {
   border: 1px solid yellowgreen; }
 
+.content-7 ul {
+  margin-right: 150px; }
+
+.content-7 li {
+  list-style: none; }
+
+.c-7-li-1 {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-bottom: 50px; }
+
+.c-7-li-2 {
+  padding-bottom: 50px; }
+
+.c-7-li-3 {
+  padding-bottom: 30px; }
+
+.c-7-li-4 {
+  padding-bottom: 20px; }
+
+.lista-1 {
+  float: left; }
+
+.lista-2 {
+  float: left; }
+
+.lista-3 {
+  float: left; }
+
+.lista-4 {
+  float: left; }
+
+.boton-f a {
+  border: 1px solid #000000;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 25px; }
+
 /*-----------Footer-----------*/
 .fondo-4 {
   background-color: #f3f4f5; }
 
-.footer {
-  border: 1px solid red; }
-
 .copy {
-  float: left; }
+  float: left;
+  padding-top: 30px;
+  padding-bottom: 35px; }
 
 .redes {
-  float: right; }
+  float: right;
+  padding-top: 30px;
+  padding-bottom: 35px; }
+
+.redes img + img {
+  padding-left: 33px; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
