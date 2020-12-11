@@ -350,7 +350,7 @@ h2 {
 
 .menu {
   float: right;
-  color: w white;
+  color: white;
   border-top: 3px solid white;
   border-bottom: 3px solid white;
   margin-right: 7.142%;
@@ -903,8 +903,7 @@ h2 {
   /*-----------Footer-----------*/
   .footer {
     max-width: 100%;
-    width: 100%;
-    border: 1px solid orangered; }
+    width: 100%; }
   .copy {
     float: none;
     text-align: center; }
