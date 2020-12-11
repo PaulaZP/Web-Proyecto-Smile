@@ -14,26 +14,26 @@
 .logo{
     float: left;
     padding: 1.928% 1.357%;
-    background-color: #000000;
+    background-color: $background-color-black;
     margin-left: 7.142%;
     margin-top: 3.571%;
 }
 .logo a{
-    color: white;
+    color: $background-color-white;
     text-decoration: none;
     font-size: 1.875rem;
     letter-spacing: 0.625rem;
 }
 .menu{
     float: right;
-    color: white;
-    border-top: 3px solid #ffffff;
-    border-bottom: 3px solid #ffffff;
+    color: w$background-color-white;
+    border-top: 3px solid $background-color-white;
+    border-bottom: 3px solid $background-color-white;
     margin-right: 7.142%;
     margin-top: 4.071%;
 }
 .menu a{
-    color: white;
+    color: $background-color-white;
     text-decoration: none;
     font-size: 1.06rem;
 }
@@ -45,7 +45,7 @@
     right: 14.28%;
 }
 .titulo-smile p{
-    color: white;
+    color: $background-color-white;
     font-size: 13.75rem;
     letter-spacing: 0.937rem;
     margin: 0;
@@ -57,7 +57,7 @@
     right: 21.428%;
 }
 .text-smile p{
-    color: white;
+    color: $background-color-white;
     font-size: 4rem;
     margin: 0;
 }

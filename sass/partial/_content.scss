@@ -17,7 +17,7 @@
 }
 .contet-1-hr{
     width: 5.714%;
-    border: 0.142% solid #000000;
+    border: 0.142% solid $background-color-black;
     margin-top: 3.357%;
     margin-bottom: 4.5%;
 }
@@ -28,7 +28,7 @@
     margin: 0 auto;
 }
 .content-2-texto{
-    background-color: #ffeae2;
+    background-color: $background-color-white-1;
     float: left;
     width: 50%;
     height: 650px;
@@ -74,15 +74,15 @@
 }
 
 .content-c-2{
-    border-top: 1px solid #eae9e7;
-    border-bottom: 1px solid #eae9e7;
-    border-left: 1px solid #eae9e7;
+    border-top: 1px solid $background-color-white-2;
+    border-bottom: 1px solid $background-color-white-2;
+    border-left: 1px solid $background-color-white-2;
     padding-top: 3.571%;
     padding-bottom: 56px;
 }
 .content-c-3{
-    border-bottom: 1px solid #eae9e7;
-    border-left: 1px solid #eae9e7;
+    border-bottom: 1px solid $background-color-white-2;
+    border-left: 1px solid $background-color-white-2;
     padding-top: 3.571%;
     padding-bottom: 56px;
 }
@@ -91,15 +91,12 @@
     margin-bottom: 4px;
     padding-top: 3.571%;
     padding-bottom: 57px;
-    border-top: 1px solid #eae9e7;
-    border-bottom: 1px solid #eae9e7;
-    border-left: 1px solid #eae9e7;
-    border-right: 1px solid #eae9e7;
+    border: 1px solid $background-color-white-2;
 }
 .content-c-5{
-    border-left: 1px solid #eae9e7;
-    border-bottom: 1px solid #eae9e7;
-    border-right: 1px solid #eae9e7;
+    border-left: 1px solid $background-color-white-2;
+    border-bottom: 1px solid $background-color-white-2;
+    border-right: 1px solid $background-color-white-2;
     padding-top: 3.571%;
     padding-bottom: 69px;
 }
@@ -121,16 +118,16 @@
     font-size: 1.25rem;
 }
 .boton a{
-    border: 2px solid #000000;
+    border: 2px solid $background-color-black;
     text-decoration: none;
     font-weight: bold;
     padding: 17px 28px;
     border-radius: 5px;
-    color: black;
+    color: $background-color-black;
 }
 .boton:hover a{
-    color: white;
-    background-color: black;
+    color: $background-color-white;
+    background-color: $background-color-black;
 }
 
 /*-----------Contenido 4-----------*/
@@ -142,7 +139,7 @@
     padding-top: 14.642%;
     margin: 0 auto;
     font-size: 3.75rem;
-    color: white;
+    color: $background-color-white;
     width: 40.5%;
     text-align: center;
 }
@@ -150,7 +147,7 @@
     padding-top: 4.285%;
     padding-bottom: 11.857%;
     font-size: 1.25rem;
-    color: white;
+    color: $background-color-white;
     text-align: center;
     margin-bottom: 0;
 }
@@ -160,7 +157,7 @@
 
 /*-----------Contenido 5-----------*/
 .fondo-3{
-    background-color: #f3f4f5;
+    background-color: $background-color-white-3;
     height: 1200px;
 }
 
@@ -195,21 +192,21 @@
 .cont-6-p1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 5rem;
-    color: #ffffff;
+    color: $background-color-white;
     text-align: center;
     padding-top: 30.714%;
     margin: 0;
 }
 .cont-6-p2{
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: $background-color-white;
     font-size: 1.25rem;
     text-transform: uppercase;
 }
 .cont-6-p3{
     font-family: Arial, Helvetica, sans-serif;
     float: right;
-    color: white;
+    color: $background-color-white;
     font-size: 1.06rem;
 }
 .cont-6-p3 img{
@@ -262,7 +259,7 @@
     font-size: 1.875rem;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: $background-color-white;
 }
 .cont-6-p7 span{
     font-size: 2.3125rem;
@@ -287,12 +284,12 @@
 }
 .c-7-li-4 input{
     width: 250px;
-    background-color: #f3f4f5;
+    background-color: $background-color-white-3;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 20px;
     border: none;
-    color: #c9c7c2;
+    color: $background-color-gris-Claro;
 }
 .c-7-li-4{
     padding-bottom: 8.428%;
@@ -334,15 +331,15 @@
     line-height: 25px;
 }
 .boton-f a{
-    border: 2px solid #000000;
+    border: 2px solid $background-color-black;
     font-size: 16px;
     text-decoration: none;
     font-weight: bold;
     padding: 0.571% 1.428%;
-    color: black;
+    color: $background-color-black;
     border-radius: 5px;
 }
 .boton-f:hover a{
-    color: white;
-    background-color: black;
+    color: $background-color-white;
+    background-color: $background-color-black;
 }

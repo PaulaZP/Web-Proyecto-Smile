@@ -338,7 +338,7 @@ h2 {
 .logo {
   float: left;
   padding: 1.928% 1.357%;
-  background-color: #000000;
+  background-color: black;
   margin-left: 7.142%;
   margin-top: 3.571%; }
 
@@ -350,9 +350,9 @@ h2 {
 
 .menu {
   float: right;
-  color: white;
-  border-top: 3px solid #ffffff;
-  border-bottom: 3px solid #ffffff;
+  color: w white;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
   margin-right: 7.142%;
   margin-top: 4.071%; }
 
@@ -408,7 +408,7 @@ h2 {
 
 .contet-1-hr {
   width: 5.714%;
-  border: 0.142% solid #000000;
+  border: 0.142% solid black;
   margin-top: 3.357%;
   margin-bottom: 4.5%; }
 
@@ -479,10 +479,7 @@ h2 {
   margin-bottom: 4px;
   padding-top: 3.571%;
   padding-bottom: 57px;
-  border-top: 1px solid #eae9e7;
-  border-bottom: 1px solid #eae9e7;
-  border-left: 1px solid #eae9e7;
-  border-right: 1px solid #eae9e7; }
+  border: 1px solid #eae9e7; }
 
 .content-c-5 {
   border-left: 1px solid #eae9e7;
@@ -506,7 +503,7 @@ h2 {
   font-size: 1.25rem; }
 
 .boton a {
-  border: 2px solid #000000;
+  border: 2px solid black;
   text-decoration: none;
   font-weight: bold;
   padding: 17px 28px;
@@ -576,7 +573,7 @@ h2 {
 .cont-6-p1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 5rem;
-  color: #ffffff;
+  color: white;
   text-align: center;
   padding-top: 30.714%;
   margin: 0; }
@@ -712,7 +709,7 @@ h2 {
   line-height: 25px; }
 
 .boton-f a {
-  border: 2px solid #000000;
+  border: 2px solid black;
   font-size: 16px;
   text-decoration: none;
   font-weight: bold;
