@@ -1,7 +1,6 @@
 @media(max-width: 767px){
     .wrapper-principal{
         max-width: 100%;
-        width: 2000px;
         height: 1000px;
     }
     #wrapper-secundario{
@@ -10,34 +9,11 @@
         margin: 0 auto;
         font-size: 16px;
     }
-    h2{
-        text-align: center;
-    }
-
-    /*-----------Contenido 2-----------*/
-    .cont-2-p-1{
-        padding-top: 80px;
-    }
-    .content-2-texto{
-        float: none;
-        width: 100%;
-    }
-    .content-2-img{
-        float: none;
-        width: 100%;
-    }
-
-    /*-----------Contenido 3-----------*/
-    .content-colum-1{
-        width: 100%;
-        float: none;
-    }
-    .content-colum-2{
-        width: 100%;
-        float: none;
-    }
-
     /*-----------Contenido 6-----------*/
+    .fondo-3{
+        height: 2500px;
+    }
+
     .cont-6-colum1{
         width: 100%;
         float: none;
@@ -54,15 +30,17 @@
     .cont-6-img1{
         margin: 0 auto;
     }
-    .cont-6-img3{
-        float: none;
-        width: 50%;
+    .cont-6-img2{
         margin: 0 auto;
     }
+    .cont-6-img3{
+        margin-left: 200px;
+        margin-right: 80px;
+        margin-top: 50px;
+    }
     .cont-6-img4{
-        float: none;
-        width: 50%;
-        margin: 0 auto;
+        margin-top: 50px;
+        margin-left: 200px;
     }
     .content-c-4{
         margin-top: 0;
@@ -75,7 +53,7 @@
     .lista-1{
         float: left;
         margin-right: 1.142%;
-        padding-left: 10px;
+        margin-left: 0;
     }
     .lista-2{
         float: left;
@@ -92,11 +70,6 @@
     .c-7-li-4 input{
         width: 150px;
     }
-
-    .content-7 {
-        margin-top: 350px;
-    }
-
     /*-----------Footer-----------*/
     .footer{
         max-width: 100%;
@@ -108,7 +81,7 @@
     }
     .redes{
         float: none;
-        margin-left: 170px;
+        margin-left: 165px;
         padding-bottom: 50px;
     }
 }
