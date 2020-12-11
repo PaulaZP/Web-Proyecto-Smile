@@ -25,26 +25,29 @@ h2 {
   background-image: url("../img/1.jpg");
   background-size: cover; }
 
+.fondo-1 img {
+  display: block; }
+
 .logo {
   float: left;
-  padding: 27px 19px;
+  padding: 1.928% 1.357%;
   background-color: #000000;
-  margin-left: 100px;
-  margin-top: 50px; }
+  margin-left: 7.142%;
+  margin-top: 3.571%; }
 
 .logo a {
   color: white;
   text-decoration: none;
   font-size: 1.875rem;
-  letter-spacing: 10px; }
+  letter-spacing: 0.625rem; }
 
 .menu {
   float: right;
   color: white;
   border-top: 3px solid #ffffff;
   border-bottom: 3px solid #ffffff;
-  margin-right: 100px;
-  margin-top: 57px; }
+  margin-right: 7.142%;
+  margin-top: 4.071%; }
 
 .menu a {
   color: white;
@@ -54,20 +57,20 @@ h2 {
 /*-----------Texto-----------*/
 .titulo-smile {
   position: absolute;
-  bottom: 300px;
-  right: 200px; }
+  bottom: 30.428%;
+  right: 14.28%; }
 
 .titulo-smile p {
   color: white;
   font-size: 13.75rem;
-  letter-spacing: 15px;
+  letter-spacing: 0.937rem;
   margin: 0;
   font-family: 'Raleway', sans-serif; }
 
 .text-smile {
   position: absolute;
-  bottom: 260px;
-  right: 300px; }
+  bottom: 25.571%;
+  right: 21.428%; }
 
 .text-smile p {
   color: white;
@@ -77,7 +80,7 @@ h2 {
 .puntos-header {
   position: absolute;
   bottom: 0;
-  left: 550px; }
+  left: 39.285%; }
 
 /*-----------Contenido 1-----------*/
 .content-1 {
@@ -192,11 +195,11 @@ h2 {
 .boton {
   text-align: center;
   margin-top: 60px;
-  margin-bottom: 143px; }
+  margin-bottom: 143px;
+  font-size: 1.25rem; }
 
 .boton a {
   border: 2px solid #000000;
-  font-size: 1.25px;
   text-decoration: none;
   font-weight: bold;
   padding: 17px 28px;
@@ -290,6 +293,8 @@ h2 {
   height: 366px; }
 
 .cont-6-p4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
   font-size: 2.25rem;
   margin: 0;
   padding-left: 77px;
@@ -416,15 +421,18 @@ h2 {
   float: left;
   padding-top: 30px;
   padding-bottom: 35px;
-  font-size: 16px; }
+  font-size: 1rem; }
 
 .redes {
   float: right;
   padding-top: 32px;
   padding-bottom: 35px; }
 
-.redes img + img {
+.redes a + a {
   padding-left: 33px; }
+
+.redes a {
+  float: left; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
