@@ -1,6 +1,9 @@
-@import 'brekpoints/tablet';
+@import 'partial/normalize';
+
 @import 'partial/globales';
 @import 'partial/header';
 @import 'partial/content';
 @import 'partial/footer';
-@import 'partial/normalize';
+
+@import 'brekpoints/movil';
+@import 'brekpoints/tablet';
