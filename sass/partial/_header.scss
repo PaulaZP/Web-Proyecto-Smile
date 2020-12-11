@@ -21,7 +21,7 @@
 .logo a{
     color: $background-color-white;
     text-decoration: none;
-    font-size: 1.875rem;
+    font-size: $font-size-2;
     letter-spacing: 0.625rem;
 }
 .menu{
@@ -35,7 +35,7 @@
 .menu a{
     color: $background-color-white;
     text-decoration: none;
-    font-size: 1.06rem;
+    font-size: $font-size-3;
 }
 
 /*-----------Texto-----------*/
@@ -46,7 +46,7 @@
 }
 .titulo-smile p{
     color: $background-color-white;
-    font-size: 13.75rem;
+    font-size: $font-size-6;
     letter-spacing: 0.937rem;
     margin: 0;
     font-family:'Raleway', sans-serif;
@@ -58,7 +58,7 @@
 }
 .text-smile p{
     color: $background-color-white;
-    font-size: 4rem;
+    font-size: $font-size-7;
     margin: 0;
 }
 .puntos-header{
