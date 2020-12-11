@@ -1,4 +1,6 @@
 .header{
+    max-width: 100%;
+    width: 100%;
     position: relative;
     height: 1000px;
 }
@@ -16,7 +18,7 @@
 .logo a{
     color: white;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 1.875rem;
     letter-spacing: 10px;
 }
 .menu{
@@ -30,7 +32,7 @@
 .menu a{
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 1.06rem;
 }
 
 /*-----------Texto-----------*/
@@ -41,7 +43,7 @@
 }
 .titulo-smile p{
     color: white;
-    font-size: 220px;
+    font-size: 13.75rem;
     letter-spacing: 15px;
     margin: 0;
     font-family:'Raleway', sans-serif;
@@ -53,7 +55,7 @@
 }
 .text-smile p{
     color: white;
-    font-size: 64px;
+    font-size: 4rem;
     margin: 0;
 }
 .puntos-header{
